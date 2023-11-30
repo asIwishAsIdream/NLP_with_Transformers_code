@@ -31,3 +31,4 @@ class CNN(nn.Module):
 # Create the network and look at its text representation
 model = CNN()
 print(model)
+# test
