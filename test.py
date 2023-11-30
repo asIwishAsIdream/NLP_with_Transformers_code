@@ -32,3 +32,4 @@ class CNN(nn.Module):
 model = CNN()
 print(model)
 # test
+##
