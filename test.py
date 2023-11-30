@@ -27,3 +27,7 @@ class CNN(nn.Module):
         # Add 2nd hidden layer, with relu activation function
         x = self.fc2(x)
         return x
+    
+# Create the network and look at its text representation
+model = CNN()
+print(model)
